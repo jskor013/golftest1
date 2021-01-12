@@ -2,7 +2,7 @@ let img, classifier;
 
 function setup() {
   createCanvas(400, 400);
-  img = loadImage('image1.jpg');
+  img = loadImage('test1.PNG');
   classifier = ml5.imageClassifier('MobileNet', modelReady);
 }
 
