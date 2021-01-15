@@ -7,7 +7,7 @@ function setup() {
 
     // create an image using the p5 dom library
     // call modelReady() when it is loaded
-    img = createImg('data/runner.jpg', imageReady);
+    img = createImg('test1.PNG', imageReady);
     // set the image size to the size of the canvas
     img.size(width, height);
 
