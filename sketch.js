@@ -3,7 +3,7 @@ let poseNet;
 let poses = [];
 
 function setup() {
-    createCanvas(640, 360);
+    createCanvas(1132, 1037);
 
     // create an image using the p5 dom library
     // call modelReady() when it is loaded
