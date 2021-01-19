@@ -3,13 +3,15 @@ let poseNet;
 let poses = [];
 
 function setup() {
-    createCanvas(1132, 1037);
+    
 
     // create an image using the p5 dom library
     // call modelReady() when it is loaded
     img = createImg('test1.PNG', imageReady);
     // set the image size to the size of the canvas
     img.size(width, height);
+
+    createCanvas(width, height);
 
     img.hide(); // hide the image in the browser
     frameRate(1); // set the frameRate to 1 since we don't need it to be running quickly in this case
